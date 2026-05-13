@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: ai-devops-app
-        image: your-dockerhub-username/ai-devops-app:latest
+        image: tekstacuser/ai-devops-app:dfc3fd6a421cc09b089d14d0f724b2401f4c34b5
         ports:
         - containerPort: 5000
