@@ -55,7 +55,7 @@ jobs:
 
     - name: Clone GitOps Repo
       run: |
-        git clone https://${{ secrets.GITOPS_TOKEN }}@github.com/your-username/gitops-repo.git
+        git clone https://${{ secrets.GITOPS_TOKEN }}@github.com/kutty27/project.git
 
     - name: Update Kubernetes Deployment
       run: |
